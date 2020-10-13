@@ -32,13 +32,23 @@ header .header-image {
 }
 
 main {
-   margin: 10px 0 20px 0;
+   margin: 10px 0 10px 0;
 }
 
 main::after {
    content: "";
    display: table;
    clear: both;
+}
+
+nav.nav-bar li {
+   list-style: none;
+   display: inline-block;
+}
+
+nav.nav-bar ul li a {
+   text-decoration: none;
+   color: white;
 }
 
 .left-column {
@@ -59,10 +69,10 @@ main::after {
 
 .card {
    background-color: white;
-   border: 1px solid black;
+   /* border: 1px solid black;
    border-radius: 5px;
+   padding: 10px; */
    margin-bottom: 20px;
-
 }
 
 footer {
