@@ -13,8 +13,9 @@ body {
 
 .main-container {
    width: 60%;
-   margin: 10px auto;
+   margin: 0 auto;
 }
+
 
 header {
    height: 300px;
@@ -22,7 +23,6 @@ header {
 }
 
 header .nav-bar {
-   height: 40px;
    background-color: grey;
 }
 
@@ -41,9 +41,15 @@ main::after {
    clear: both;
 }
 
+nav.nav-bar ul {
+   height: 50px;
+   line-height: 50px;
+   text-align: center;
+}
 nav.nav-bar li {
    list-style: none;
    display: inline-block;
+   margin: 0 10px;
 }
 
 nav.nav-bar ul li a {
@@ -73,6 +79,12 @@ nav.nav-bar ul li a {
    border-radius: 5px;
    padding: 10px; */
    margin-bottom: 20px;
+}
+
+.card-style {
+   background-color: white;
+   border-radius: 5px;
+   padding: 10px;
 }
 
 footer {
